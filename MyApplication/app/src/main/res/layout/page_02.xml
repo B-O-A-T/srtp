@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+     <include layout="@layout/activity_search"/>
+
+     <ImageView
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:src="@drawable/circle2"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="85dp"
+     android:id="@+id/imageView7"
+     />
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="黑天鹅"
+          android:textColor="#ffffff"
+          android:textSize="25dp"
+          android:id="@+id/textView3"
+          android:layout_alignTop="@+id/circle3"
+          android:layout_alignStart="@+id/circle5"
+          android:layout_marginTop="32dp"
+          />
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="川普"
+          android:textColor="@color/white"
+          android:textSize="15dp"
+          android:layout_alignBaseline="@+id/textView3"
+          android:layout_alignBottom="@+id/textView3"
+          android:layout_alignEnd="@+id/imageView2"
+          android:layout_marginEnd="8dp"
+          />
+     <ImageView
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:src="@drawable/circle3"
+          android:layout_marginLeft="180dp"
+          android:layout_marginTop="105dp"
+          android:id="@+id/circle3"
+          />
+     <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@drawable/circle4"
+          android:layout_marginLeft="200dp"
+          android:layout_marginTop="250dp"
+          android:id="@+id/circle4"
+          />
+     <ImageView
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:src="@drawable/circle5"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="250dp"
+          android:id="@+id/circle5"
+          />
+     <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_centerInParent="true"
+          android:src="@drawable/circle1"
+          android:id="@+id/imageView2"
+          />
+
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="选课爆炸"
+          android:textColor="#ffffff"
+          android:textSize="25dp"
+          android:layout_centerInParent="true"
+          android:id="@+id/textView"
+          />
+
+
+     <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/line"
+          android:layout_below="@+id/textView2"
+          android:layout_alignEnd="@+id/textView2"
+          android:layout_alignStart="@+id/textView2"
+          />
+
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="川普"
+          android:textColor="@color/white"
+          android:textSize="15dp"
+          android:id="@+id/textView4"
+          android:layout_alignBaseline="@+id/textView3"
+          android:layout_alignBottom="@+id/textView3"
+          android:layout_alignEnd="@+id/imageView2"
+          android:layout_marginEnd="8dp"
+          />
+
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="更多圈子"
+          android:textColor="@color/bar_color"
+          android:textSize="20dp"
+          android:id="@+id/textView2"
+          android:layout_alignBottom="@+id/imageView3"
+          android:layout_centerHorizontal="true"
+          />
+
+     <ImageView
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:src="@drawable/plus"
+          android:layout_marginTop="42dp"
+          android:id="@+id/imageView3"
+          android:layout_below="@+id/circle5"
+          android:layout_toEndOf="@+id/imageView2"
+          />
+
+
+
+</RelativeLayout>

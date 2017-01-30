@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#145CA6</color>
+    <color name="colorAccent">#CEC5C5</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#4595F3</color>
+    <color name="bar_color">#232325</color>
+    <color name="start_line_color">#FFFFFF</color>
+    <color name="start_button_color">#FFFFFF</color>
+    <color name="black">#232325</color>
+</resources>
